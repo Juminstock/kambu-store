@@ -4,6 +4,5 @@
 <h2 align="center">Instalación</h2>.
 <p align="center">
   Es sencilla, en mi caso, como usuario de Linux basta con ejecutar este comando en la terminal:
-</p>
-<code align="center">curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh</code>
+<code>curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh</code>
 </p>
