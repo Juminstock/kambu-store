@@ -15,8 +15,17 @@
   <li><code>rustup self uninstall</code> para desinstalar Rust.</li>
   <li><code>rustup doc</code> para abrir una copia offline de la documentación.</li>
 </p>
-<h3 align="center">Hello, world! en Rust</h3>
+<h3>Hello, world!</h3>
 <p>
-  Creemos nuestro primer "Hola, mundo" en Rust. Así es como se vería:
-  <img src="https://github.com/Juminstock/rust-start/blob/main/assets/hello_world.png">
+  Creemos nuestro primer "Hola, mundo" en Rust. Así es como se vería: <br>
+  <img src="https://github.com/Juminstock/rust-start/blob/main/assets/hello_world.png"> <br>
+  <em>Dato interesante</em> 👀: La extensión de un archivo Rust es <strong>.rs</strong>
+</p>
+<h4>Compilemos nuestro primer código: </h4>
+<p>
+  Hay dos formas de compilar código creado con Rust, una es a través de <a href="https://doc.rust-lang.org/rustc/what-is-rustc.html"><strong>rustc</strong></a>, adecuado para programas sencillos, pero para proyectos más grandes no es tan eficiente, en su lugar usamos <a href="https://doc.rust-lang.org/cargo/index.html"><strong>cargo</cargo></a>, el cual es la segunda forma de compilar. Usemos cargo para este primer código ya que es la forma común de hacerlo.
+
+  En nuestra terminal coloquemos el siguiente comando: <code>cargo run</code> al hacerlo, veremos nuestro código impreso. Así, habremos creado nuestro primer programa usando Rust, ¡bienvenido, rustacean!
+
+Notemos que el macro que imprime el hello world se ejecuta dentro de la función main(){}, por regla general los programas en Rust comienzan con la función main().
 </p>
