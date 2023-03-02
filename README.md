@@ -15,3 +15,8 @@
   <li><code>rustup self uninstall</code> para desinstalar Rust.</li>
   <li><code>rustup doc</code> para abrir una copia offline de la documentación.</li>
 </p>
+<h3 align="center">Hello, world! en Rust</h3>
+<p>
+  Creemos nuestro primer "Hola, mundo" en Rust. Así es como se vería:
+  <img src="https://github.com/Juminstock/rust-start/blob/main/assets/hello_world.png">
+</p>
