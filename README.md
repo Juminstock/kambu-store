@@ -18,7 +18,7 @@
 </ul>
 <h3>Hello, world!</h3>
 <p>Creemos nuestro primer "Hola, mundo" en Rust. Así es como se vería:</p>
-  <img src="https://github.com/Juminstock/rust-start/blob/main/assets/hello_world.png"> <br>
+  <img src="https://github.com/Juminstock/rust-start/blob/main/assets/hello_world.png">
 <p><em>Dato interesante 👀: La extensión de un archivo Rust es </em><strong>.rs</strong></p>
 <h4>Compilemos nuestro primer código: </h4>
 <p>
@@ -29,5 +29,5 @@
   Al hacerlo, veremos nuestro código impreso en la pantalla. Así, habremos creado nuestro primer programa usando Rust, ¡bienvenido, rustacean!
 </p>
 <p>
-  Dato: Notemos que el macro que imprime el hello world se ejecuta dentro de la función main(){}, por regla general los programas en Rust comienzan con la función main() la cúal se traduce como la función principal, el compilador de Rust ejecutará todo lo que esté en ella.
+  Dato: Notemos que el macro que imprime el <em>hello world</em> se ejecuta dentro de la función <em>main(){}</em>, por regla general los programas en Rust comienzan con la función <em>main()</em> la cúal se traduce como la <em>función principal</em>, el compilador de Rust ejecutará todo lo que esté en ella.
 </p>
