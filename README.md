@@ -5,8 +5,7 @@
 <h2 align="center">Instalación</h2>
 <p>
   Es sencilla, en mi caso, como usuario de Linux basta con ejecutar este comando en la terminal: <br>
-  <code> curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh </code> <br>
-  Este comando descarga un script e inicia la instalación de rustup, una herramienta que instalará la última versión estable de     Rust. Para el caso de Windows te recomiendo revisar la <a href="https://rust-book.cs.brown.edu/ch01-01-installation.html">documentación oficial.</a>
+  <code> curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh </code> Este comando descargará un script e iniciará la instalación de rustup, una herramienta que instalará la última versión estable de Rust. Para el caso de Windows te recomiendo revisar la <a href="https://rust-book.cs.brown.edu/ch01-01-installation.html">documentación oficial.</a>
   
   Un posible error puede ser la ausencia de un linker, para solucionarlo instalamos el paquete <code>build-essential</code> en     Linux.
 </p>
@@ -17,15 +16,13 @@
   <li><code>rustup doc</code> para abrir una copia offline de la documentación.</li>
 </ul>
 <h3>Hello, world!</h3>
-<p>Creemos nuestro primer "Hola, mundo" en Rust. Así es como se vería:</p>
+<p>Creemos nuestro primer "Hola, mundo" en Rust. Así es cómo se vería:</p>
   <img src="https://github.com/Juminstock/rust-start/blob/main/assets/hello_world.png">
 <p>
-  Para crearlo ejecutemos este comando en la terminal: <code>cargo new <em>nombre_de_tu_proyecto</em></code> <br>
-  Este comando te creará toda una estructura de carpetas con archivos incorporados, la estructura se verá así: <br>
-  <img src="https://github.com/Juminstock/rust-start/blob/main/assets/estructura_carpetas.png"> <br>
-  Dentro de la carpeta <em>src</em> encontraremos un archivo nombrado como <code>main.rs</code> en él se encontrará el código de nuestro programa. Luego nos preocupamos por el resto de archivos.
+  Para crearlo ejecutemos este comando en la terminal: <code>cargo new <em>nombre_de_tu_proyecto</em></code> Este comando te creará toda una estructura de carpetas con archivos incorporados, la estructura se verá así: <br><br>
+  <img src="https://github.com/Juminstock/rust-start/blob/main/assets/estructura_carpetas.png"> <br><br>
+  Dentro de la carpeta <em>src</em> encontraremos un archivo nombrado como <code>main.rs</code> en él se encontrará un "Hello, world" creado por Rust. Luego nos preocupamos por el resto de archivos. <em>Dato interesante 👀: La extensión de un archivo Rust es </em><strong>.rs</strong>
 </p>
-<p><em>Dato interesante 👀: La extensión de un archivo Rust es </em><strong>.rs</strong></p>
 <h4>Compilemos nuestro primer código: </h4>
 <p>
   Hay dos formas de compilar código creado con Rust, una es a través de <a href="https://doc.rust-lang.org/rustc/what-is-rustc.html"><strong>rustc</strong></a>, adecuado para programas sencillos, pero para proyectos más grandes no es tan eficiente, en su lugar usamos <a href="https://doc.rust-lang.org/cargo/index.html"><strong>cargo</strong></a>, el cual es la segunda forma de compilar. Usemos <a href="https://doc.rust-lang.org/cargo/index.html"><strong>cargo</strong></a> para este primer código ya que es la forma común de hacerlo.
