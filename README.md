@@ -20,10 +20,10 @@
 <p>Creemos nuestro primer "Hola, mundo" en Rust. Así es como se vería:</p>
   <img src="https://github.com/Juminstock/rust-start/blob/main/assets/hello_world.png">
 <p>
-  Para crearlo ejecutemos este comando en la terminal: <code>cargo new <em>nombre_de_tu_proyecto</em><code> <br>
-  Este comando te creará todo una estructura de carpetas con archivos incorporados, la estructura se verá así: <br>
+  Para crearlo ejecutemos este comando en la terminal: <code>cargo new <em>nombre_de_tu_proyecto</em></code> <br>
+  Este comando te creará toda una estructura de carpetas con archivos incorporados, la estructura se verá así: <br>
   <img src="https://github.com/Juminstock/rust-start/blob/main/assets/estructura_carpetas.png"> <br>
-  Dentro de la carpeta <em>src</em> encontraremos un archivo nombrado como <code>main.rs</code> en él se encontrará todo el código de nuestro programa. Luego nos preocupamos por el resto de archivos.
+  Dentro de la carpeta <em>src</em> encontraremos un archivo nombrado como <code>main.rs</code> en él se encontrará el código de nuestro programa. Luego nos preocupamos por el resto de archivos.
 </p>
 <p><em>Dato interesante 👀: La extensión de un archivo Rust es </em><strong>.rs</strong></p>
 <h4>Compilemos nuestro primer código: </h4>
