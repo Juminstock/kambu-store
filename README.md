@@ -19,6 +19,12 @@
 <h3>Hello, world!</h3>
 <p>Creemos nuestro primer "Hola, mundo" en Rust. Así es como se vería:</p>
   <img src="https://github.com/Juminstock/rust-start/blob/main/assets/hello_world.png">
+<p>
+  Para crearlo ejecutemos este comando en la terminal: <code>cargo new <em>nombre_de_tu_proyecto</em><code> <br>
+  Este comando te creará todo una estructura de carpetas con archivos incorporados, la estructura se verá así: <br>
+  <img src="https://github.com/Juminstock/rust-start/blob/main/assets/estructura_carpetas.png"> <br>
+  Dentro de la carpeta <em>src</em> encontraremos un archivo nombrado como <code>main.rs</code> en él se encontrará todo el código de nuestro programa. Luego nos preocupamos por el resto de archivos.
+</p>
 <p><em>Dato interesante 👀: La extensión de un archivo Rust es </em><strong>.rs</strong></p>
 <h4>Compilemos nuestro primer código: </h4>
 <p>
@@ -31,3 +37,6 @@
 <p>
   Dato: Notemos que el macro que imprime el <em>hello world</em> se ejecuta dentro de la función <em>main(){}</em>, por regla general los programas en Rust comienzan con la función <em>main()</em> la cúal se traduce como la <em>función principal</em>, el compilador de Rust ejecutará todo lo que esté en ella.
 </p>
+<h3>Estructura de un proyecto con Rust</h3>
+<p>
+  Habrás notado que al haber ejecutado el comando 
