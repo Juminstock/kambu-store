@@ -34,5 +34,3 @@
 <p>
   Dato: Notemos que el macro que imprime el <em>hello world</em> se ejecuta dentro de la función <em>main(){}</em>, por regla general los programas en Rust comienzan con la función <em>main()</em> la cúal se traduce como la <em>función principal</em>, el compilador de Rust ejecutará todo lo que esté en ella.
 </p>
-dwdw}w
-wdwd
