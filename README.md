@@ -8,7 +8,7 @@
   <code> curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh </code> Este comando descargará un script e iniciará la instalación de rustup, una herramienta que instalará la última versión estable de Rust. Para el caso de Windows te recomiendo revisar la <a href="https://rust-book.cs.brown.edu/ch01-01-installation.html">documentación oficial.</a>
   
   Un posible error puede ser la ausencia de un linker, para solucionarlo instalamos el paquete <code>build-essential</code> en     Linux.
-</p>
+</p
 <h3> Algunas opciones útiles de rustup son: </h3>
 <ul>
   <li><code>rustup update</code> para actualizar nuestra versión de Rust.</li>
