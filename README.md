@@ -12,11 +12,7 @@
 <h3> Algunas opciones útiles de rustup son: </h3>
 <h3>Hello, world!</h3>
 <p>Creemos nuestro primer "Hola, mundo"
-  Para crearlo ejecutemos este comando en la terminal: <code>cargo new <em>nombre_de_tu_proyecto</em></code> Este comando te creará toda una estructura de carpetas con archivos incorporados, la estructura se verá así: <br><br>
-  <ódigo: </h4>
-<p>
-  Hay dos formas de compilar código creado con Rust, una es a través de <a href="https://doc.rust-lang.org/rustc/what-is-rustc.html"><strong>rustc</strong></a>, adecuado para programas sencillos, pero para proyectos más grandes no es tan eficiente, en su lugar usamos <a href="https://doc.rust-lang.org/cargo/index.html"><strong>cargo</strong></a>, e
-  
+  Para c
 </p>
 <p>En nuestra terminal coloquemos el siguiente comando: <code>cargo run</code></p>
 <p>
