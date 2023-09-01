@@ -5,7 +5,4 @@
 <h2 align="center">Instalación</h2>
 <p>
   Es sencilla, en mi caso, como usuario de Linux basta con ejecutar este comando en la terminal: <br>
-  <code> curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh </code> Este co
-  
-  Un posible error puede ser la ausencia de un linker, para solucionarlo instalamos el paquete <code>build-essential</code> en     Linux.
-</p> 
+  <code> curl --proto '=https' --tlsv1.
