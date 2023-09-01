@@ -10,11 +10,6 @@
   Un posible error puede ser la ausencia de un linker, para solucionarlo instalamos el paquete <code>build-essential</code> en     Linux.
 </p> 
 <h3> Algunas opciones útiles de rustup son: </h3>
-<ul>
-  <li><code>rustup update</code> para actualizar nuestra versión de Rust.</li>
-  <li><code>rustup self uninstall</code> para desinstalar Rust.</li>
-  <li><code>rustup doc</code> para abrir una copia offline de la documentación.</li>
-</ul>
 <h3>Hello, world!</h3>
 <p>Creemos nuestro primer "Hola, mundo" en Rust. Así es cómo se vería:</p>
   <img src="https://github.com/Juminstock/rust-start/blob/main/assets/hello_world.png">
