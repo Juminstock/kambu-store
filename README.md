@@ -9,13 +9,6 @@
   
   Un posible error puede ser la ausencia de un linker, para solucionarlo instalamos el paquete <code>build-essential</code> en     Linux.
 </p> 
-<h3> Algunas opciones útiles de rustup son: </h3>
-<h3>Hello, world!</h3>
-<p>Creemos nuestro primer "Hola, mundo"
-  Para c
-</p>
-<p>En nuestra terminal coloquemos el siguiente comando: <code>cargo run</code></p>
-<p>
   Al hacerlo, veremos nuestro código impreso en la pantalla. Así, habremos creado nuestro primer programa usando Rust, ¡bienvenido, rustacean!
 </p>
 <p>
