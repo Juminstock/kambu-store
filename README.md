@@ -9,5 +9,3 @@
   
   Un posible error puede ser la ausencia de un linker, para solucionarlo instalamos el paquete <code>build-essential</code> en     Linux.
 </p> 
-  Al hacerlo, veremos nuestro código impreso en la pantalla. Así, habremos creado nuestro primer programa usando Rust, ¡bienvenido, rustacean!
-</p>
