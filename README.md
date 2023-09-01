@@ -13,10 +13,7 @@
 <h3>Hello, world!</h3>
 <p>Creemos nuestro primer "Hola, mundo"
   Para crearlo ejecutemos este comando en la terminal: <code>cargo new <em>nombre_de_tu_proyecto</em></code> Este comando te creará toda una estructura de carpetas con archivos incorporados, la estructura se verá así: <br><br>
-  <img src="https://github.com/Juminstock/rust-start/blob/main/assets/estructura_carpetas.png"> <br><br>
-  Dentro de la carpeta <em>src</em> encontraremos un archivo nombrado como <code>main.rs</code> en él se encontrará un "Hello, world" creado por Rust. Luego nos preocupamos por el resto de archivos. <em>Dato interesante 👀: La extensión de un archivo Rust es </em><strong>.rs</strong>
-</p>
-<h4>Compilemos nuestro primer código: </h4>
+  <ódigo: </h4>
 <p>
   Hay dos formas de compilar código creado con Rust, una es a través de <a href="https://doc.rust-lang.org/rustc/what-is-rustc.html"><strong>rustc</strong></a>, adecuado para programas sencillos, pero para proyectos más grandes no es tan eficiente, en su lugar usamos <a href="https://doc.rust-lang.org/cargo/index.html"><strong>cargo</strong></a>, el cual es la segunda forma de compilar. Usemos <a href="https://doc.rust-lang.org/cargo/index.html"><strong>cargo</strong></a> para este primer código ya que es la forma común de hacerlo.
 </p>
