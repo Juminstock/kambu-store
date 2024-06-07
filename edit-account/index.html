@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <title>Kambu</title>
+    <style>
+        :root {
+            --white: #FFFFFF;
+            --black: #000000;
+            --very-like-pink: #C7C7C7;
+            --text-input-field: #F7F7F7;
+            --hospital-green: #ACD9B2;
+            --sm: 14px;
+            --md: 16px;
+            --lg: 18px;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Quicksand", sans-serif;
+        }
+
+        .login {
+            width: 100%;
+            height: 100vh;
+            display: grid;
+            place-items: center;
+        }
+
+        .form-container {
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            width: 300px;
+        }
+
+        .form-create-account {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-create-account div {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .title {
+            font-size: var(--lg);
+            margin-bottom: 80px;
+            text-align: start;
+        }
+
+        .label-name {
+            font-size: var(--sm);
+            font-weight: bold;
+            margin-bottom: 4px;
+        }
+
+        .label-input {
+            font-size: var(--sm);
+            font-weight: bold;
+            margin-bottom: 4px;
+        }
+
+        .label-password {
+            font-size: var(--sm);
+            font-weight: bold;
+            margin-bottom: 4px;
+        }
+
+        .input {
+            background-color: var(--text-input-field);
+            border: none;
+            border-radius: 8px;
+            height: 30px;
+            font-size: var(--md);
+            padding: 6px;
+            margin-bottom: 12px;
+        }
+
+        .input-name, .input-email, .input-password {
+            margin-bottom: 22px;
+        } 
+
+        .secondary-button {
+            background-color: var(--white);
+            border-radius: 8px;
+            border: 1px solid var(--hospital-green);
+            color: var(--hospital-green);
+            width: 100%;
+            cursor: pointer;
+            font-size: var(--md);
+            font-weight: bold;
+            height: 50px;
+            margin-top: 14px;
+            margin-bottom: 30px;
+        }
+
+        .secondary-button:hover {
+            background-color: var(--hospital-green);
+            color: var(--white);
+        }
+
+        .third-button {
+            background-color: #FF6D6D;
+            border-radius: 8px;
+            border: none;
+            color: var(--white);
+            width: 100%;
+            cursor: pointer;
+            font-size: var(--md);
+            font-weight: bold;
+            height: 50px;
+            margin-bottom: 30px;
+        }
+
+        .third-button:hover {
+            background-color: #FF2F2F;
+        }
+
+        @media (max-width: 400px) {
+            .form-container {
+                height: 100%;
+            }
+            .form-create-account {
+                height: 100%;
+                justify-content: space-between;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <div class="form-container">
+            <h1 class="title">My account</h1>
+
+            <form action="/" class="form-create-account">
+
+                <div>
+                    <label for="name" class="label-name">Name</label>
+                    <input type="text" id="label-name" placeholder="Carlos Rodríguez" class="input input-name">
+
+                    <label for="label-email" class="label-input">Email address</label>
+                    <input type="email" id="label-email" placeholder="camiloemail@gmail.com" class="input input-email">
+
+                    <label for="password" class="label-password">Password</label>
+                    <input type="password" id="label-password" placeholder="**********" class="input input-password">
+                </div>
+
+                <input type="submit" value="Save" class="secondary-button login-button">
+            </form>
+            <button class="cancel third-button">Cancel</button>
+        </div>
+    </div>
+    
+</body>
+</html>
