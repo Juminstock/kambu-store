@@ -19,229 +19,340 @@
                 --md: 16px;
                 --lg: 18px;
             }
+
+            body {
+                margin: 0;
+                font-family: "Quicksand", sans-serif;
+            }
+
+            .cards-container {
+                display: grid;
+                --card-size: 240px;
+                grid-template-columns: repeat(auto-fill, var(--card-size));
+                gap: 26px;
+                place-content: center;
+            }
+
+            .product-card {
+                width: var(--card-size);
+            }
+
+            .product-card img {
+                width: var(--card-size);
+                height: 240px;
+                border-radius: 20px;
+                object-fit: fill;
+            }
+
+            .product-info p:nth-child(1) {
+                font-weight: bold;
+                font-size: var(--md);
+                color: var(--black);
+                margin-top: 0;
+                margin-bottom: 4px;
+            }
+
+            .product-info p:nth-child(2) {
+                font-size: var(--sm);
+                color: var(--black);
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
+            .footer-card-section {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 12px;
+            }
+
+            .footer-card-section figure {
+                margin: 0;
+            }
+
+            .footer-card-section figure img {
+                width: 35px;
+                height: 35px;
+            }
+
+            @media (max-width: 430) {
+                .cards-container {
+                    --card-size: 193px;
+                    grid-template-columns: repeat(auto-fill, var(--card-size));
+                }
+
+                .product-card {
+                    width: var(--card-size);
+                }
+
+                .product-card img {
+                    width: var(--card-size);
+                    height: 193px;
+                }
+            }
         </style>
     </head>
     <body>
         <section class="main-container">
-            <div class="carts-container">
+            <div class="cards-container">
                 <div class="product-card">
                     <img src="https://images.pexels.com/photos/6782480/pexels-photo-6782480.jpeg?auto=compress&cs=tinysrgb&w=800" alt="product-img" class="product-img">
-                    <div class="text-image">
-                        <p>$120,00</p>
-                        <p>Round shelf</p>
+                    <div class="footer-card-section">
+                        <div class="product-info">
+                            <p>$120,00</p>
+                            <p>Round shelf</p>
+                        </div>
+                        <figure class="add-to-cart-icon">
+                            <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
+                        </figure>
                     </div>
-                    <figure class="add-to-cart-icon">
-                        <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
-                    </figure>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://images.pexels.com/photos/6186812/pexels-photo-6186812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="product-img" class="product-img">
+                    <div class="footer-card-section">
+                        <div class="product-info">
+                            <p>$120,00</p>
+                            <p>Round shelf</p>
+                        </div>
+                        <figure class="add-to-cart-icon">
+                            <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://images.pexels.com/photos/7061404/pexels-photo-7061404.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="product-img" class="product-img">
+                    <div class="footer-card-section">
+                        <div class="product-info">
+                            <p>$120,00</p>
+                            <p>Round shelf</p>
+                        </div>
+                        <figure class="add-to-cart-icon">
+                            <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://images.pexels.com/photos/6444966/pexels-photo-6444966.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="product-img" class="product-img">
+                    <div class="footer-card-section">
+                        <div class="product-info">
+                            <p>$120,00</p>
+                            <p>Round shelf</p>
+                        </div>
+                        <figure class="add-to-cart-icon">
+                            <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://images.pexels.com/photos/6587838/pexels-photo-6587838.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load" alt="product-img" class="product-img">
+                    <div class="footer-card-section">
+                        <div class="product-info">
+                            <p>$120,00</p>
+                            <p>Round shelf</p>
+                        </div>
+                        <figure class="add-to-cart-icon">
+                            <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://images.pexels.com/photos/6587838/pexels-photo-6587838.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load" alt="product-img" class="product-img">
+                    <div class="footer-card-section">
+                        <div class="product-info">
+                            <p>$120,00</p>
+                            <p>Round shelf</p>
+                        </div>
+                        <figure class="add-to-cart-icon">
+                            <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://images.pexels.com/photos/6444966/pexels-photo-6444966.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="product-img" class="product-img">
+                    <div class="footer-card-section">
+                        <div class="product-info">
+                            <p>$120,00</p>
+                            <p>Round shelf</p>
+                        </div>
+                        <figure class="add-to-cart-icon">
+                            <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://images.pexels.com/photos/6186812/pexels-photo-6186812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="product-img" class="product-img">
+                    <div class="footer-card-section">
+                        <div class="product-info">
+                            <p>$120,00</p>
+                            <p>Round shelf</p>
+                        </div>
+                        <figure class="add-to-cart-icon">
+                            <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
+                        </figure>
+                    </div>
                 </div>
 
                 <div class="product-card">
                     <img src="https://images.pexels.com/photos/6782480/pexels-photo-6782480.jpeg?auto=compress&cs=tinysrgb&w=800" alt="product-img" class="product-img">
-                    <div class="text-image">
-                        <p>$120,00</p>
-                        <p>Round shelf</p>
+                    <div class="footer-card-section">
+                        <div class="product-info">
+                            <p>$120,00</p>
+                            <p>Round shelf</p>
+                        </div>
+                        <figure class="add-to-cart-icon">
+                            <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
+                        </figure>
                     </div>
-                    <figure class="add-to-cart-icon">
-                        <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
-                    </figure>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://images.pexels.com/photos/7061404/pexels-photo-7061404.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="product-img" class="product-img">
+                    <div class="footer-card-section">
+                        <div class="product-info">
+                            <p>$120,00</p>
+                            <p>Round shelf</p>
+                        </div>
+                        <figure class="add-to-cart-icon">
+                            <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://images.pexels.com/photos/6587838/pexels-photo-6587838.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load" alt="product-img" class="product-img">
+                    <div class="footer-card-section">
+                        <div class="product-info">
+                            <p>$120,00</p>
+                            <p>Round shelf</p>
+                        </div>
+                        <figure class="add-to-cart-icon">
+                            <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://images.pexels.com/photos/7061404/pexels-photo-7061404.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="product-img" class="product-img">
+                    <div class="footer-card-section">
+                        <div class="product-info">
+                            <p>$120,00</p>
+                            <p>Round shelf</p>
+                        </div>
+                        <figure class="add-to-cart-icon">
+                            <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://images.pexels.com/photos/6444966/pexels-photo-6444966.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="product-img" class="product-img">
+                    <div class="footer-card-section">
+                        <div class="product-info">
+                            <p>$120,00</p>
+                            <p>Round shelf</p>
+                        </div>
+                        <figure class="add-to-cart-icon">
+                            <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://images.pexels.com/photos/6186812/pexels-photo-6186812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="product-img" class="product-img">
+                    <div class="footer-card-section">
+                        <div class="product-info">
+                            <p>$120,00</p>
+                            <p>Round shelf</p>
+                        </div>
+                        <figure class="add-to-cart-icon">
+                            <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
+                        </figure>
+                    </div>
                 </div>
 
                 <div class="product-card">
                     <img src="https://images.pexels.com/photos/6782480/pexels-photo-6782480.jpeg?auto=compress&cs=tinysrgb&w=800" alt="product-img" class="product-img">
-                    <div class="text-image">
-                        <p>$120,00</p>
-                        <p>Round shelf</p>
+                    <div class="footer-card-section">
+                        <div class="product-info">
+                            <p>$120,00</p>
+                            <p>Round shelf</p>
+                        </div>
+                        <figure class="add-to-cart-icon">
+                            <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
+                        </figure>
                     </div>
-                    <figure class="add-to-cart-icon">
-                        <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
-                    </figure>
                 </div>
 
                 <div class="product-card">
                     <img src="https://images.pexels.com/photos/6782480/pexels-photo-6782480.jpeg?auto=compress&cs=tinysrgb&w=800" alt="product-img" class="product-img">
-                    <div class="text-image">
-                        <p>$120,00</p>
-                        <p>Round shelf</p>
+                    <div class="footer-card-section">
+                        <div class="product-info">
+                            <p>$120,00</p>
+                            <p>Round shelf</p>
+                        </div>
+                        <figure class="add-to-cart-icon">
+                            <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
+                        </figure>
                     </div>
-                    <figure class="add-to-cart-icon">
-                        <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
-                    </figure>
                 </div>
 
                 <div class="product-card">
-                    <img src="https://images.pexels.com/photos/6782480/pexels-photo-6782480.jpeg?auto=compress&cs=tinysrgb&w=800" alt="product-img" class="product-img">
-                    <div class="text-image">
-                        <p>$120,00</p>
-                        <p>Round shelf</p>
+                    <img src="https://images.pexels.com/photos/6186812/pexels-photo-6186812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="product-img" class="product-img">
+                    <div class="footer-card-section">
+                        <div class="product-info">
+                            <p>$120,00</p>
+                            <p>Round shelf</p>
+                        </div>
+                        <figure class="add-to-cart-icon">
+                            <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
+                        </figure>
                     </div>
-                    <figure class="add-to-cart-icon">
-                        <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
-                    </figure>
                 </div>
 
                 <div class="product-card">
-                    <img src="https://images.pexels.com/photos/6782480/pexels-photo-6782480.jpeg?auto=compress&cs=tinysrgb&w=800" alt="product-img" class="product-img">
-                    <div class="text-image">
-                        <p>$120,00</p>
-                        <p>Round shelf</p>
+                    <img src="https://images.pexels.com/photos/7061404/pexels-photo-7061404.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="product-img" class="product-img">
+                    <div class="footer-card-section">
+                        <div class="product-info">
+                            <p>$120,00</p>
+                            <p>Round shelf</p>
+                        </div>
+                        <figure class="add-to-cart-icon">
+                            <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
+                        </figure>
                     </div>
-                    <figure class="add-to-cart-icon">
-                        <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
-                    </figure>
                 </div>
 
                 <div class="product-card">
-                    <img src="https://images.pexels.com/photos/6782480/pexels-photo-6782480.jpeg?auto=compress&cs=tinysrgb&w=800" alt="product-img" class="product-img">
-                    <div class="text-image">
-                        <p>$120,00</p>
-                        <p>Round shelf</p>
+                    <img src="https://images.pexels.com/photos/6444966/pexels-photo-6444966.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="product-img" class="product-img">
+                    <div class="footer-card-section">
+                        <div class="product-info">
+                            <p>$120,00</p>
+                            <p>Round shelf</p>
+                        </div>
+                        <figure class="add-to-cart-icon">
+                            <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
+                        </figure>
                     </div>
-                    <figure class="add-to-cart-icon">
-                        <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
-                    </figure>
                 </div>
 
                 <div class="product-card">
-                    <img src="https://images.pexels.com/photos/6782480/pexels-photo-6782480.jpeg?auto=compress&cs=tinysrgb&w=800" alt="product-img" class="product-img">
-                    <div class="text-image">
-                        <p>$120,00</p>
-                        <p>Round shelf</p>
+                    <img src="https://images.pexels.com/photos/6587838/pexels-photo-6587838.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load" alt="product-img" class="product-img">
+                    <div class="footer-card-section">
+                        <div class="product-info">
+                            <p>$120,00</p>
+                            <p>Round shelf</p>
+                        </div>
+                        <figure class="add-to-cart-icon">
+                            <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
+                        </figure>
                     </div>
-                    <figure class="add-to-cart-icon">
-                        <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
-                    </figure>
-                </div>
-
-                <div class="product-card">
-                    <img src="https://images.pexels.com/photos/6782480/pexels-photo-6782480.jpeg?auto=compress&cs=tinysrgb&w=800" alt="product-img" class="product-img">
-                    <div class="text-image">
-                        <p>$120,00</p>
-                        <p>Round shelf</p>
-                    </div>
-                    <figure class="add-to-cart-icon">
-                        <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
-                    </figure>
-                </div>
-
-                <div class="product-card">
-                    <img src="https://images.pexels.com/photos/6782480/pexels-photo-6782480.jpeg?auto=compress&cs=tinysrgb&w=800" alt="product-img" class="product-img">
-                    <div class="text-image">
-                        <p>$120,00</p>
-                        <p>Round shelf</p>
-                    </div>
-                    <figure class="add-to-cart-icon">
-                        <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
-                    </figure>
-                </div>
-
-                <div class="product-card">
-                    <img src="https://images.pexels.com/photos/6782480/pexels-photo-6782480.jpeg?auto=compress&cs=tinysrgb&w=800" alt="product-img" class="product-img">
-                    <div class="text-image">
-                        <p>$120,00</p>
-                        <p>Round shelf</p>
-                    </div>
-                    <figure class="add-to-cart-icon">
-                        <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
-                    </figure>
-                </div>
-
-                <div class="product-card">
-                    <img src="https://images.pexels.com/photos/6782480/pexels-photo-6782480.jpeg?auto=compress&cs=tinysrgb&w=800" alt="product-img" class="product-img">
-                    <div class="text-image">
-                        <p>$120,00</p>
-                        <p>Round shelf</p>
-                    </div>
-                    <figure class="add-to-cart-icon">
-                        <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
-                    </figure>
-                </div>
-
-                <div class="product-card">
-                    <img src="https://images.pexels.com/photos/6782480/pexels-photo-6782480.jpeg?auto=compress&cs=tinysrgb&w=800" alt="product-img" class="product-img">
-                    <div class="text-image">
-                        <p>$120,00</p>
-                        <p>Round shelf</p>
-                    </div>
-                    <figure class="add-to-cart-icon">
-                        <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
-                    </figure>
-                </div>
-
-                <div class="product-card">
-                    <img src="https://images.pexels.com/photos/6782480/pexels-photo-6782480.jpeg?auto=compress&cs=tinysrgb&w=800" alt="product-img" class="product-img">
-                    <div class="text-image">
-                        <p>$120,00</p>
-                        <p>Round shelf</p>
-                    </div>
-                    <figure class="add-to-cart-icon">
-                        <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
-                    </figure>
-                </div>
-
-                <div class="product-card">
-                    <img src="https://images.pexels.com/photos/6782480/pexels-photo-6782480.jpeg?auto=compress&cs=tinysrgb&w=800" alt="product-img" class="product-img">
-                    <div class="text-image">
-                        <p>$120,00</p>
-                        <p>Round shelf</p>
-                    </div>
-                    <figure class="add-to-cart-icon">
-                        <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
-                    </figure>
-                </div>
-
-                <div class="product-card">
-                    <img src="https://images.pexels.com/photos/6782480/pexels-photo-6782480.jpeg?auto=compress&cs=tinysrgb&w=800" alt="product-img" class="product-img">
-                    <div class="text-image">
-                        <p>$120,00</p>
-                        <p>Round shelf</p>
-                    </div>
-                    <figure class="add-to-cart-icon">
-                        <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
-                    </figure>
-                </div>
-
-                <div class="product-card">
-                    <img src="https://images.pexels.com/photos/6782480/pexels-photo-6782480.jpeg?auto=compress&cs=tinysrgb&w=800" alt="product-img" class="product-img">
-                    <div class="text-image">
-                        <p>$120,00</p>
-                        <p>Round shelf</p>
-                    </div>
-                    <figure class="add-to-cart-icon">
-                        <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
-                    </figure>
-                </div>
-
-                <div class="product-card">
-                    <img src="https://images.pexels.com/photos/6782480/pexels-photo-6782480.jpeg?auto=compress&cs=tinysrgb&w=800" alt="product-img" class="product-img">
-                    <div class="text-image">
-                        <p>$120,00</p>
-                        <p>Round shelf</p>
-                    </div>
-                    <figure class="add-to-cart-icon">
-                        <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
-                    </figure>
-                </div>
-
-                <div class="product-card">
-                    <img src="https://images.pexels.com/photos/6782480/pexels-photo-6782480.jpeg?auto=compress&cs=tinysrgb&w=800" alt="product-img" class="product-img">
-                    <div class="text-image">
-                        <p>$120,00</p>
-                        <p>Round shelf</p>
-                    </div>
-                    <figure class="add-to-cart-icon">
-                        <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
-                    </figure>
-                </div>
-
-                <div class="product-card">
-                    <img src="https://images.pexels.com/photos/6782480/pexels-photo-6782480.jpeg?auto=compress&cs=tinysrgb&w=800" alt="product-img" class="product-img">
-                    <div class="text-image">
-                        <p>$120,00</p>
-                        <p>Round shelf</p>
-                    </div>
-                    <figure class="add-to-cart-icon">
-                        <img src="../assets/yardsale-icons/bt_add_to_cart.svg" alt="Add to cart icon">
-                    </figure>
                 </div>
             </div>
         </section>
