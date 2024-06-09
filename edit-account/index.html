@@ -86,8 +86,27 @@
             margin-bottom: 22px;
         } 
 
-        .primary-button {
+        .secondary-button {
+            background-color: var(--white);
+            border-radius: 8px;
+            border: 1px solid var(--hospital-green);
+            color: var(--hospital-green);
+            width: 100%;
+            cursor: pointer;
+            font-size: var(--md);
+            font-weight: bold;
+            height: 50px;
+            margin-top: 14px;
+            margin-bottom: 30px;
+        }
+
+        .secondary-button:hover {
             background-color: var(--hospital-green);
+            color: var(--white);
+        }
+
+        .third-button {
+            background-color: #FF6D6D;
             border-radius: 8px;
             border: none;
             color: var(--white);
@@ -96,8 +115,11 @@
             font-size: var(--md);
             font-weight: bold;
             height: 50px;
-            margin-top: 14px;
             margin-bottom: 30px;
+        }
+
+        .third-button:hover {
+            background-color: #FF2F2F;
         }
 
         @media (max-width: 400px) {
@@ -129,8 +151,9 @@
                     <input type="password" id="label-password" placeholder="**********" class="input input-password">
                 </div>
 
-                <input type="submit" value="Edit" class="primary-button login-button">
+                <input type="submit" value="Save" class="secondary-button login-button">
             </form>
+            <button class="cancel third-button">Cancel</button>
         </div>
     </div>
     

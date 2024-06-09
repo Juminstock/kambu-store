@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="../assets/yardsale-logos/favicon_yard_sale.svg" type="img">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+        <title>Kambu</title>
+        <style>
+            :root {
+                --white: #FFFFFF;
+                --black: #000000;
+                --very-like-pink: #C7C7C7;
+                --text-input-field: #F7F7F7;
+                --hospital-green: #ACD9B2;
+                --sm: 14px;
+                --md: 16px;
+                --lg: 18px;
+            }
+
+            body {
+                margin: 0;
+                font-family: "Quicksand", sans-serif;
+            }
+
+            .desktop-menu {
+                width: 100px;
+                height: auto;
+                border: 1px solid var(--very-like-pink);
+                border-radius: 8px;
+                padding: 20px 20px 0px 20px;
+            }
+
+            .desktop-menu ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+
+            .desktop-menu ul li {
+                text-align: end;
+            }
+
+            .desktop-menu ul li:not(:last-child) {
+                font-weight: bold;
+            }
+
+            .desktop-menu ul li:last-child {
+                padding-top: 20px;
+                border-top: 1px solid var(--very-like-pink);
+            }
+
+            .desktop-menu ul li:last-child a {
+                color: var(--hospital-green);
+                font-size: var(--sm);
+                
+            }
+
+            .desktop-menu ul li a {
+                text-decoration: none;
+                color: var(--black);
+                display: inline-block;
+                margin-bottom: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="desktop-menu">
+            <ul>
+                <li>
+                    <a href="/" class="menu-title">My orders</a>
+                </li>
+
+                <li>
+                    <a href="/">My account</a>
+                </li>
+
+                <li>
+                    <a href="/">Sign out</a>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>
