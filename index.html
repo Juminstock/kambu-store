@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Menú mobile</title>
+    <style>
+        :root{
+            --white: #FFFFFF;
+            --black: #000000;
+            --very-light-pink: #8FBC8B;
+            --text-input-field: #F7F7F7;
+            --hospital-green: #ACD982;
+            --sm: 14px;
+            --md: 16px;
+            --lg: 18px;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: 'Quicksand', sans-serif;
+        }
+        
+        .container{
+            width: 100%;
+            height: 100vh;
+            display: grid;
+            place-items: center;
+        }
+        .myOrders--container{
+            width: 320px;
+            height: 100vh;
+        }
+
+        .title{
+            font-size: var(--lg);
+            margin-bottom: 40px;
+        }
+        .myOrders--header{
+            width: initial;
+            height: 80px;
+            background-color: var(--text-input-field);
+            border-radius: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 10px;
+            margin: auto;
+        }
+        .myOrders--header p{
+            display: flex;
+            flex-direction: column;
+        }
+        .myOrders--header p span:nth-child(1){
+            font-size: var(--lg);
+            font-weight: bold;
+            color: var(--black);
+        }
+        .myOrders--header p span:nth-child(2){
+            font-size: var(--md);
+            font-weight: 300;
+            color: var(--very-light-pink);
+        }
+        .myOrders--header p:nth-child(2){
+            font-weight: bold;
+        }
+        .myOrders--product{
+            width: 320px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            align-items: center;
+            gap: 4px;
+            margin-top: 24px;
+
+        }
+        .myOrders--product figure{
+            width: 80px;
+            height: 80px;
+            margin: 0;
+            padding: 0;
+        }
+        .myOrders--product figure img{
+            width: 100%;
+            height: 100%;
+            border-radius: 20px;
+        }
+        .myOrders--product p{
+            justify-items: center;
+        }
+        .myOrders--product p:nth-child(2){
+            font-size: var(--md);
+            color: var(--very-light-pink);
+        }
+        .myOrders--product p:nth-child(3){
+            text-align: right;
+            font-weight: bold;
+            padding-right: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="myOrders--container">
+
+            <h1 class="title">My orders</h2>
+         
+            <section class="myOrders--header">
+                <p>
+                    <span>07.03.2022</span>
+                    <span>5 articules</span>
+                </p>
+                <p>$550,00</p>
+            </section>
+    
+            <section class="myOrders--product">
+                <figure>
+                    <img src="https://images.pexels.com/photos/9816191/pexels-photo-9816191.jpeg?auto=compress&cs=tinysrgb&w=300" alt="pastel">
+                </figure>
+                <p>Product</p>
+                <p>$70,00</p>
+            </section>
+
+            <section class="myOrders--product">
+                <figure>
+                    <img src="https://images.pexels.com/photos/9816191/pexels-photo-9816191.jpeg?auto=compress&cs=tinysrgb&w=300" alt="pastel">
+                </figure>
+                <p>Product</p>
+                <p>$70,00</p>
+            </section>
+
+            <section class="myOrders--product">
+                <figure>
+                    <img src="https://images.pexels.com/photos/9816191/pexels-photo-9816191.jpeg?auto=compress&cs=tinysrgb&w=300" alt="pastel">
+                </figure>
+                <p>Product</p>
+                <p>$70,00</p>
+            </section>
+
+            <section class="myOrders--product">
+                <figure>
+                    <img src="https://images.pexels.com/photos/9816191/pexels-photo-9816191.jpeg?auto=compress&cs=tinysrgb&w=300" alt="pastel">
+                </figure>
+                <p>Product</p>
+                <p>$70,00</p>
+            </section>
+
+            <section class="myOrders--product">
+                <figure>
+                    <img src="https://images.pexels.com/photos/9816191/pexels-photo-9816191.jpeg?auto=compress&cs=tinysrgb&w=300" alt="pastel">
+                </figure>
+                <p>Product</p>
+                <p>$70,00</p>
+            </section>
+        </div>
+    </div>
+
+</body>
+</html>
